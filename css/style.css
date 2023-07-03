@@ -1,6 +1,44 @@
 /*  Змінні  */
 :root{
+    /*  Шрифти  */
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-primary: 'Raleway', sans-serif;
-    
+
+    /*  Кольори  */
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-accent: #2196F3;
+    --color-third: #000000;
+    --color-alfa: #ffffff85;
+    --color-other: #ffffff;
+
+    /*  Кольори задніх фонів  */
+    --color-background-primary: #E5E5E5;
+    --color-background-secondary: #2F303A;
+    --color-background-third: #F5F4FA;
+    --color-background-other: #ffffff;
+    --color-background-accent: #2196F3;
+}
+
+/* Властивості для всієї сторінки */
+.body{
+    color: var(--color-primary);
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+/* Відключення стилів для списків */
+li {
+    list-style-type: none;
+}
+
+/* Відключення стилів для посилань */
+a {
+    text-decoration: none;
+}
+
+/* Хедер */
+.header-page {
+    background-color: var(--color-background-other);
 }
